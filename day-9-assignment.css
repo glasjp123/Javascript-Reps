@@ -1,0 +1,23 @@
+.number {
+	color: red;
+	font-family: times new roman;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+
+.name {
+	color: blue;
+	font-family: courier;
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+
+.door {
+	color: green;
+	font-family: palatino;
+	text-align: center;
+	position: relative;
+	top: 250px;
+}

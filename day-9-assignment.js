@@ -13,16 +13,24 @@ var array1 = ["Phillies", "Eagles", "Sixers", "Flyers"];
 console.log(array1[2]);
 console.log(array1[3]);				//this solves problem 2
 
-var newNumber = 97;
+function newNumber(x) {
 
-if (newNumber < 100) {
+if (x < 100) {
 	alert("This number is less than 100")
-} else if (newNumber > 100) {
+} else if (x > 100) {
 	alert("This number is greater than 100")		
+} else if (x === 100) {
+	alert("This number is 100")
+}
 };									//this solves problem 3
 
 function nameFunc(a) {
+
+	if (a === "Jeff") {
+		console.log(a + ", well thats a silly name");
+	} else {
 	console.log(arguments[0]);
+ }
  };									//this solves problem 4
 
 
